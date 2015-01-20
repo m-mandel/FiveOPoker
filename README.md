@@ -5,23 +5,23 @@ Authors:
 	Shai Aharon
 	Moshe Mandel
 
-****Files****
-agents.py				The various agents of the game (Monte, Expectiminimax, Greedy, Reflex, etc.).
+Files
+agents.py			The various agents of the game (Monte, Expectiminimax, Greedy, Reflex, etc.).
 cardsDict.py			A dictionary used to convert cards represented as ints to their respective ranks/suit/string.
-display.py				GUI.
+display.py			GUI.
 fiveopoker.py			Parses the command line, and runs the game/s.
-game.py					Holds various objects needed to run the game (Card, Configuration, AgentState, etc.)
+game.py				Holds various objects needed to run the game (Card, Configuration, AgentState, etc.)
 greedyEval.py			State evaluation function.
 greedyEval2.py			State evaluation function. Also holds hand evaluation functions used by reflex agents.
 handEvaluator.py		Handles the C poker evaluation library, and allows the library to be used in python.
 keyboardAgent.py		Human agent.
-monteCarloEvaluator.py	Evaluates states and hands by simulation.
+monteCarloEvaluator.py		Evaluates states and hands by simulation.
 probTable.py			Calculates exact winning probabilities of hands.
 util.py					Holds various tools used in the program.
 valueDict.py			A dictionary of (<tuple>, <int>), which holds values for incomplete hands (keys are a tuple of the hand's ranks).
 
 
-****Usage****
+Usage
 For using the program the user must specify the players names and types, for certain agent types an evaluation function
 should be provided.
 To run the program one may type the following at the command line:
@@ -72,7 +72,7 @@ One may choose different agents by specifying a name and agent type:
 		
 		python fiveopoker.py -1 Shai reflex1 -2 Moshe greedy -b greedyEval1 -g n -n 1000 -v n
 
-****Prerequisites****
+Prerequisites
 The Five O-Poker game uses some python libraries that are not common house-holds.
 
 	1) numexpr-1.4.1.win32-py2.7.exe
