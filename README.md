@@ -7,4 +7,4 @@ Authors:
 
 Details and usage instructions can be seen in README.txt
 
-Extensive review of the project and its implementation can be seen in the project report: FiveOPoker.pdf
+Extensive review of the project and its implementation can be seen in the project report: Final Report.pdf
